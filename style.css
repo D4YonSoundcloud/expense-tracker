@@ -17,6 +17,11 @@ body {
   margin: 0;
 }
 
+body.dark {
+  background-color: #333;
+  color: white;
+}
+
 .container {
   margin: 30px auto;
   width: 350px;
@@ -145,4 +150,25 @@ input[type="number"] {
 .btn:focus,
 .delete-btn:focus {
   outline: 0;
+}
+
+
+.toggleButton {
+  background-color: #f5f5f5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.5em 1em;
+  border-radius: 0.3em;
+  border: none;
+  outline: none;
+  transition: 0.3s ease-in-out;
+  transform: scale(1);
+}
+
+.toggleButton:hover,
+.toggleButton:focus {
+  transform: scale(1.03);
 }
