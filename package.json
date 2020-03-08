@@ -1,10 +1,14 @@
 {
-  "name": "expensetracker",
+  "name": "typing-game",
   "version": "1.0.0",
   "description": "",
   "main": "./build/script.js",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "deploy": "gh-pages -d build"
+    "deploy" : "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -15,8 +19,6 @@
   "bugs": {
     "url": "https://github.com/D4YonSoundcloud/expense-tracker/issues"
   },
-  "homepage": "https://d4yonsoundcloud.github.io/expense-tracker/",
-  "dependencies": {
-    "gh-pages": "^2.2.0"
-  }
+  "homepage": "https://D4YonSoundcloud.github.io/expense-tracker#readme"
 }
+
