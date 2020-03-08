@@ -1,0 +1,22 @@
+{
+  "name": "expensetracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/script.js",
+  "scripts": {
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D4YonSoundcloud/expense-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D4YonSoundcloud/expense-tracker/issues"
+  },
+  "homepage": "https://D4YonSoundcloud.github.io/expense-tracker",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
