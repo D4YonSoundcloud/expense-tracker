@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/D4YonSoundcloud/expense-tracker/issues"
   },
-  "homepage": "https://D4YonSoundcloud.github.io/expense-tracker",
+  "homepage": "https://d4yonsoundcloud.github.io/expense-tracker/",
   "dependencies": {
     "gh-pages": "^2.2.0"
   }
